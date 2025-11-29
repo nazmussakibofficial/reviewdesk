@@ -55,3 +55,49 @@
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 /service/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Web
+# Compiled output
+/web/dist
+/web/tmp
+/web/out-tsc
+/web/bazel-out
+
+# Node
+/web/node_modules
+/web/npm-debug.log
+/web/yarn-error.log
+
+# IDEs and editors
+/web/.idea/
+/web/.project
+/web/.classpath
+/web/.c9/
+/web/*.launch
+/web/.settings/
+/web/*.sublime-workspace
+
+# Visual Studio Code
+/web/.vscode/*
+!/web/.vscode/settings.json
+!/web/.vscode/tasks.json
+!/web/.vscode/launch.json
+!/web/.vscode/extensions.json
+/web/.history/*
+
+# Miscellaneous
+/web/.angular/cache
+/web/.sass-cache/
+/web/connect.lock
+/web/coverage
+/web/libpeerconnection.log
+/web/testem.log
+/web/typings
+/web/__screenshots__/
+
+# System files
+/web/.DS_Store
+/web/Thumbs.db
+
+/web/*storybook.log
+/web/storybook-static
