@@ -1,0 +1,57 @@
+# Service
+# compiled output
+/service/dist
+/service/node_modules
+/service/build
+
+# Logs
+/service/logs
+/service/*.log
+/service/npm-debug.log*
+/service/pnpm-debug.log*
+/service/yarn-debug.log*
+/service/yarn-error.log*
+/service/lerna-debug.log*
+
+# OS
+/service/.DS_Store
+
+# Tests
+/service/coverage
+/service/.nyc_output
+
+# IDEs and editors
+/service/.idea
+/service/.project
+/service/.classpath
+/service/.c9/
+/service/*.launch
+/service/.settings/
+/service/*.sublime-workspace
+
+# IDE - VSCode
+/service/.vscode/*
+!/service/.vscode/settings.json
+!/service/.vscode/tasks.json
+!/service/.vscode/launch.json
+!/service/.vscode/extensions.json
+
+# dotenv environment variable files
+/service/.env
+/service/.env.development.local
+/service/.env.test.local
+/service/.env.production.local
+/service/.env.local
+
+# temp directory
+/service/.temp
+/service/.tmp
+
+# Runtime data
+/service/pids
+/service/*.pid
+/service/*.seed
+/service/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+/service/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
